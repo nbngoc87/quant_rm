@@ -1,0 +1,112 @@
+---
+title: "luq_streamchem - Stream chemistry, Luquillo Mountains of Puerto Rico (LUQ)"
+subtitle: "Impact of hurricane Hugo on stream chemistry for Quebrada Sonadora site"
+---
+
+
+### Dataset sample used
+
+- `luq_streamchem`
+
+
+
+# Introduction
+
+This vignette highlights:
+
+- How to explore change points in time-series
+- How to use long format to create facet plots
+
+
+The `luq_streamchem` data sample contains a subset of stream flow chemistry data for the Quebrada Sonadora (QS) site within the Espiritu Santo drainage basin and the El Verde Research area of the Luquillo Experimental Forest (LEF). The Luquillo Experimental Forest (LEF) has been a center of tropical forestry research for nearly a century. In addition, the LEF is a recreation site for over a half a million people per year, a water supply for approximately 20% of Puerto Rico’s population, a regional center for electronic communication, and a refuge of Caribbean biodiversity. QS is the high elevation site.
+
+<figure style="text-align:center;">
+  <img src="../man/figures/luq_streamchem_img.jpeg" width=60% style="display:block; margin-left: auto; margin-right: auto;">
+  <figcaption>Credit: Luquillo LTER. CC BY-SA 4.0</figcaption>
+</figure>
+
+<br>
+
+
+# Exploring the time-series
+
+```{r setup}
+library(lterdatasampler)
+library(tidyverse)
+```
+
+## Ice Cover Duration Data
+
+
+```{r glimpse}
+glimpse(luq_streamchem)
+```
+
+
+## Plotting one chemical
+
+Let's start with looking at the time-series of potassium
+
+```{r, fig.height=5.5, fig.width=6.5}
+ggplot(data=luq_streamchem, aes(x=sample_date, y=k)) +
+  geom_line(color="#69b3a2") + 
+  xlab("") +
+  theme_bw() +
+  theme(axis.text.x=element_text(angle=60, hjust=1)) +
+  labs(title = "Potassium [mg/L]") 
+```
+
+Wow there is definitely something going on at the end of 1989!
+
+## Plotting all water quality indicators
+
+We are not sure if all the chemicals and water quality indicators have been monitored over the same time period, or if their value will also show strong variations at the end of 1989. To explore this we will transform our data frame into long format so we can use `ggplot2::facet_wrap()` to quickly plot all observed stream chemistry variables at once. Note we are using the `scales = free` option since the concentrations (and units) vary greatly among the different variables.
+
+```{r}
+# Switching to long format
+luq_streamchem_long <- luq_streamchem %>% 
+  pivot_longer(cols = -c(sample_id, sample_date), names_to = "chem_param") 
+
+ggplot(luq_streamchem_long, aes(sample_date, value)) + 
+  geom_line(color="#69b3a2") + 
+  facet_wrap(vars(chem_param), scales = "free")
+
+```
+
+It seems that other chemicals are also showing a jump around the end of 1989. Actually those jumps are due to Hurricane Hugo which made landfall in Puerto Rico at the beginning of September 1989. In its aftermath, average stream water exports of potassium, nitrate and ammonium increased in the year after the landfall by 119, 182 and 102% respectively compared to the other years of record.
+
+# Detecting change points in a time-series
+
+Let's first confirm that the timing of the jump in the time-series corresponds to Hurricane Hugo by adding a vertical line at the date of hurricane landfall.
+
+```{r}
+ggplot(luq_streamchem, aes(x=sample_date, y=k)) +
+  geom_line(color="#69b3a2") + 
+  geom_vline(xintercept = as.Date("1989-09-18"), 
+             linetype = "dashed") +
+  xlab("") +
+  theme_bw() +
+  theme(axis.text.x=element_text(angle=60, hjust=1)) +
+  labs(title = "Potassium [mg/L]") 
+
+```
+
+### What could be next
+
+There are many R packages available to help to detect change points in a time series: [`changepoint`](https://cran.r-project.org/web/packages/changepoint/index.html), [`CPM`](https://cran.r-project.org/web/packages/cpm/index.html), [`BCP`](https://cran.r-project.org/web/packages/bcp/index.html), [`ECP`](https://cran.r-project.org/web/packages/ecp/index.html) and more! Try to use them on this data sample.
+
+
+## References
+
+Schaefer, D., McDowell, W., Scatena, F., & Asbury, C. (2000). Effects of hurricane disturbance on stream water concentrations and fluxes in eight tropical forest watersheds of the Luquillo Experimental Forest, Puerto Rico. Journal of Tropical Ecology, 16(2), 189-207. [doi:10.1017/S0266467400001358](https://doi.org/10.1017/S0266467400001358)
+
+McDowell, W. 2021. Chemistry of stream water from the Luquillo Mountains ver 4923056.
+Environmental Data Initiative. https://doi.org/10.6073/pasta/0a09f5aa2e6f11451553c92b102279a6 (Accessed 2022-03-10)
+
+Killick, R., & Eckley, I. A. (2014). changepoint: An R Package for Changepoint Analysis. Journal of Statistical Software, 58(3), 1–19. 
+https://doi.org/10.18637/jss.v058.i03
+
+
+# How we processed the raw data
+
+`r knitr::spin_child(here::here("data-raw","luq_streamchem_data.R"))`

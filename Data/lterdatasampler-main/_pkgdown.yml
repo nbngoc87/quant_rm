@@ -1,0 +1,28 @@
+url: https://lter.github.io/lterdatasampler/
+
+template:
+  params:
+    ganalytics:
+  opengraph:
+    image:
+      src: man/figures/leaf.png
+      alt: "lterdatasampler package in R"
+    twitter:
+      creator: "@allison_horst"
+      card: summary
+
+authors:
+  Allison Horst:
+    href: https://www.allisonhorst.com/
+  Julien Brun:
+    href: https://brunj7.github.io/
+
+
+home:
+  title: lterdatasampler package
+  description: Data samples from 8 Long Term Ecological Research (LTER) network sites
+
+navbar:
+  structure:
+    left:  [home, intro, reference, articles]
+    right: [github]
