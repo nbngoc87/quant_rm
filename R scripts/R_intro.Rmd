@@ -8,6 +8,13 @@ output:
 papersize: a4
 ---
 
+
+```{r}
+
+library(formatR)
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+```
+
 # Introduction
 ## R
 * Developed from S - interpreted language
@@ -342,6 +349,9 @@ ls$cls1
 * From clipboard
 
 ```{r}
+
+# open excel file "C:\Users\nbngo\OneDrive\Work\[C] Quantitative research methods\quant_rm\Data\Dataset_environmental_sustainability.xlsx"
+
 df <- read.delim("clipboard")
 
 
@@ -351,7 +361,8 @@ df <- read.delim("clipboard")
 
 ``` {r}
 
-df <- read.csv("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/Dataset_environmental_sustainability.csv", sep = ",", header = T)
+df <- read.csv("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/Dataset_environmental_sustainability.csv", sep = ",", header = T)
+
 
 ```
 
@@ -361,14 +372,14 @@ df <- read.csv("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/q
 # install.packages("readxl")
 library(readxl)
 
-df <- read_excel("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/Dataset_environmental_sustainability.xlsx")
+df <- read_excel("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/Dataset_environmental_sustainability.xlsx")
 
 ```
 
 * From Rdata
 ``` {r}
 
-load("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/ntl_joined_avg.Rdata")
+load("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/ntl_joined_avg.Rdata")
 
 
 ```
@@ -378,7 +389,7 @@ load("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Da
 * as Rdata
 ``` {r}
 
-save(df, file = "C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/environment_survey.Rdata")
+save(df, file = "C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/environment_survey.Rdata")
 
 
 ```
@@ -390,7 +401,7 @@ write.table(ntl_joined_avg, "clipboard", sep = "\t", row.names = F)
 
 * to csv
 ```{r}
-write.csv(ntl_joined_avg, file = "C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/ice_cover_lake.csv", row.names = F)
+write.csv(ntl_joined_avg, file = "C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/ice_cover_lake.csv", row.names = F)
 ```
 
 

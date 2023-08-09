@@ -8,6 +8,11 @@ load("C:/Users/nbngo/OneDrive/Work/Course - Quant methods/Data - Quant methods/n
 env_surv <- read.csv("C:/Users/nbngo/OneDrive/Work/Course - Quant methods/Data - Quant methods/Dataset_environmental_sustainability.csv")[,c(4:7, 9:28)]
 
 
+water <- read.csv("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/water consumption.csv")
+
+water <- water[complete.cases(water$csmptv),]
+t.test(water$csmptv[water$rwtank %in% "yes"], water$csmptv[water$rwtank %in% "no"])
+
 ggplot(ntl_joined_avg,aes(x = avg_air_temp_adjusted, y = avg_ice_duration)) +
   geom_point()  + 
   theme_bw()
@@ -61,3 +66,14 @@ ggplot(df, aes(x, y))   +
   theme_bw()
 fit <- lm(avg_ice_duration ~ avg_air_temp_adjusted, ntl_joined_avg)
 plot(fit, ask = F)
+
+
+ggplot(env_surv) +
+  geom_bar(aes(x = Q2)) + theme_bw()
+
+library(dplyr)
+test <- env_surv %>%
+  group_by(Q2) %>%
+  summarise(count = n(),
+            percent = n()*100/nrow(env_surv))
+

@@ -378,7 +378,10 @@ save(data_env, file = "C:/Users/nbngo/OneDrive/Work/[C] Quantitative research me
 
 # * to clipboard
 
-write.table(ntl_joined_avg, "clipboard", sep = "\t", row.names = F)
+write.table(df, "clipboard", sep = "\t", row.names = F)
+
+df_sub <- df[1:20, ]
+write.table(df_sub, "clipboard", sep = "\t", row.names = F)
 
 
 # * to csv

@@ -1,2 +1,2 @@
 # quant_rm
-A course on Quantitative Research Methods developed for Master students in School for Interdisciplinary Studies
+A course on Research Methods developed for graduate students in Climate change and Sustainabile science
