@@ -2,7 +2,9 @@
 title: "Introduction to R"
 author: "Nguyen Bich Ngoc"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output: 
+output:
+  html_document:
+    df_print: paged
   pdf_document:
     number_sections: true
 papersize: a4
@@ -12,7 +14,11 @@ papersize: a4
 ```{r}
 
 library(formatR)
+library(knitr)
 knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 60), tidy = TRUE)
+
+
+#https://bookdown.org/rb76/444/data-wrangling.html
 ```
 
 # Introduction
@@ -352,7 +358,7 @@ ls$cls1
 
 # open excel file "C:\Users\nbngo\OneDrive\Work\[C] Quantitative research methods\quant_rm\Data\Dataset_environmental_sustainability.xlsx"
 
-df <- read.delim("clipboard")
+# df <- read.delim("clipboard")
 
 
 ```
@@ -361,7 +367,7 @@ df <- read.delim("clipboard")
 
 ``` {r}
 
-df <- read.csv("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/Dataset_environmental_sustainability.csv", sep = ",", header = T)
+df <- read.csv("C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/Dataset_environmental_sustainability.csv", sep = ",", header = T)
 
 
 ```
@@ -372,14 +378,14 @@ df <- read.csv("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/q
 # install.packages("readxl")
 library(readxl)
 
-df <- read_excel("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/Dataset_environmental_sustainability.xlsx")
+df <- read_excel("C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/Dataset_environmental_sustainability.xlsx")
 
 ```
 
 * From Rdata
 ``` {r}
 
-load("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/ntl_joined_avg.Rdata")
+load("C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/ntl_joined_avg.Rdata")
 
 
 ```
@@ -389,7 +395,7 @@ load("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Da
 * as Rdata
 ``` {r}
 
-save(df, file = "C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/environment_survey.Rdata")
+save(df, file = "C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/environment_survey.Rdata")
 
 
 ```
@@ -401,7 +407,7 @@ write.table(ntl_joined_avg, "clipboard", sep = "\t", row.names = F)
 
 * to csv
 ```{r}
-write.csv(ntl_joined_avg, file = "C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data/ice_cover_lake.csv", row.names = F)
+write.csv(ntl_joined_avg, file = "C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/ice_cover_lake.csv", row.names = F)
 ```
 
 
@@ -449,7 +455,7 @@ ggplot(data, aes(x = mpg)) +
   geom_histogram(binwidth = 2) +
   theme_bw()
 
-??theme_bw
+# ??theme_bw
 
 ggplot(data, aes(x = wt)) +
   geom_histogram(binwidth = 0.5) +

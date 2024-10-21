@@ -26,7 +26,9 @@
 2+3
 
 4^2
+
 sqrt(25)
+
 8^(1/3)
 
 pi
@@ -47,7 +49,7 @@ log10(100)
 
 # huong dan cai packages
 
-# install.packages("ggplot2")
+install.packages("ggplot2")
 library(ggplot2)
 
 
@@ -57,10 +59,10 @@ library(ggplot2)
 
 
 
-rnorm(100, mean = 0, sd = 1)
-
-hist(rnorm(100, mean = 0, sd = 1))
-
+rnorm(50, mean = 160, sd = 20) # random normal
+x <- rnorm(50, mean = 160, sd = 20) 
+hist(rnorm(50, mean = 160, sd = 20))
+hist(x)
 
 
 ## Operators -------------
@@ -73,11 +75,14 @@ x
 y = 6-5
 
 x == 3
+x == 5
 y != 2
 x < 0
 y < 4
 x >= 5
 y <= 10
+
+
 is.na(x)
 
 x < 0 & y < 4
@@ -90,6 +95,10 @@ x < 0 | y < 4
 
 
 ?sqrt
+
+?rnorm
+
+
 a + 3
 a <- 2
 a + 3
@@ -118,7 +127,8 @@ b <- 2L
 
 
 x <- c(1, 8, 23, -7, 13)
-x
+z <- c(18,34, 67,23, 55)
+
 y <- c("a", "b", "c", "d", "e")
 y
 
@@ -129,7 +139,7 @@ y
 
 
 
-a <- c(1, "a", 3, T)
+a <- c(1, "a", 3L, T)
 a 
 str(a)
 str(x)
@@ -146,11 +156,11 @@ str(b)
 
 x <- c(1, 8, 23, -7, 13)
 x <- 1:20
-y <- seq(from = 8, to = 12, by = 0.5)
+y <- seq(from = 8, to = 12, by = 0.5) # sequence
+y
 
-
-z <- rep("Female", 10)
-
+z <- rep("Female", 10) #repeat
+z
 
 
 # * Vectorization
@@ -169,9 +179,11 @@ sqrt(x)
 
 
 
-x
-z <- x > 4
+x <- c(18,34, 67,23, 55)
+z <- x > 30
 z
+
+
 y <- c("a", "b", "a", "d", "e")
 
 t <- y == "A"
@@ -191,13 +203,20 @@ sum(x)
 max(x)
 min(x)
 sort(x)
-order(x, decreasing = T)
+order(x, decreasing = F)
 unique(x)
+
+x <- c(x, 23)
 
 mean(x)
 sd(x)
 
+y <- c(23, 22, 18, 19, 20, 22)
+sd(y)
 
+
+
+y <- c("Fr", "En", "Ge", "USA", "Jp", "Ge")
 y
 length(y)
 unique(y)
@@ -216,12 +235,15 @@ x[3:5]
 x[c(1,3:5)]
 
 x[-2]
-x[x > 4]
+
+
+x[x >= 30]
 
 
 v <- 3
 v[1]
-
+length(v)
+mean(v)
 
 
 ### Matrices ------------
@@ -258,14 +280,14 @@ id <- 1:6
 gender <- rep(c("F", "M"), each = 3)
 age <- rep(8, 6)
 
-students <- cbind(id, gender, age)
+students <- cbind(id, gender, age) # column bind
 students
 str(students)
 summary(students)
 
 students <- cbind.data.frame(id, gender, age)
 students
-str(students)
+str(students) # string
 summary(students)
 
 id <- 1:6
@@ -273,6 +295,10 @@ math <- c(9, 6, 7, 8, 10, 5)
 english <- c(8, 5, 9, 8, 9, 7)
 
 results <- cbind.data.frame(id, math, english)
+
+
+summary(results)
+
 
 df <- merge(students, results)
 df
@@ -289,11 +315,12 @@ sub2 <- df[, c(1, 4:5)]
 sub2
 
 sub2b <- df[3:4,]
+sub2b
 
 sub3 <- df$math
 sub3
 
-sub4 <- subset(df, math > 7, select = c(id, english))
+sub4 <- subset(df, math > 7, select = c(id, math, english))
 sub4
 
 sub5 <- subset(df, english <= 7, select = -age)
@@ -306,6 +333,9 @@ sub5
 
 df1 <- df[order(df$math),]
 df1 
+
+
+
 
 ### List ----------------
 
@@ -341,27 +371,26 @@ df <- read.delim("clipboard")
 
 
 # * From csv 
-# "C:\Users\nbngo\OneDrive\Work\[C] Quantitative research methods\quant_rm\Data - Quant Methods\Dataset_environmental_sustainability.csv"
+# "C:\Users\nbngo\OneDrive\Work\[C]_ResearchMethods\quant_rm\Data - Quant Methods\Dataset_environmental_sustainability.csv"
 
 
-data_env <- read.csv("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/Dataset_environmental_sustainability.csv", sep = ",", header = T)
-
+data_env <- read.csv("C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/Dataset_environmental_sustainability.csv", sep = ",", header = T)
 
 
 # * From xlsx
 
 
-# install.packages("readxl")
+install.packages("readxl")
 library(readxl)
 
-df2 <- read_excel("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/Dataset_environmental_sustainability.xlsx")
+df2 <- read_excel("C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/Dataset_environmental_sustainability.xlsx")
 
 
 
 # * From Rdata
 
 
-load("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/ntl_joined_avg.Rdata")
+load("C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/ntl_joined_avg.Rdata")
 
 
 
@@ -371,7 +400,7 @@ load("C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Da
 # * as Rdata
 
 
-save(data_env, file = "C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/environment_survey.Rdata")
+save(data_env, file = "C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/environment_survey.Rdata")
 
 
 
@@ -386,14 +415,13 @@ write.table(df_sub, "clipboard", sep = "\t", row.names = F)
 
 # * to csv
 
-write.csv(ntl_joined_avg, file = "C:/Users/nbngo/OneDrive/Work/[C] Quantitative research methods/quant_rm/Data - Quant Methods/ice_cover_lake.csv", row.names = F)
+write.csv(ntl_joined_avg, file = "C:/Users/nbngo/OneDrive/Work/[C]_ResearchMethods/quant_rm/Data/ice_cover_lake.csv", row.names = F)
 
 
 
 # Exploring and plotting data -------------
 ## Data --------------
 # * mtcars data in R
-
 
 data <- mtcars
 
@@ -416,12 +444,12 @@ summary(data$mpg)
 mean(data$mpg)
 median(data$mpg)
 
-sd(data$mpg)
-var(data$mpg)
-quantile(data$mpg, seq(0, 1, 0.2))
+sd(data$mpg) # độ lệch chuẩn
+var(data$mpg) # phương sai
+quantile(data$mpg, seq(0, 1, 0.2)) 
 
 hist(data$mpg)
-install.packages("ggplot2")
+# install.packages("ggplot2")
 library(ggplot2)
 
 
@@ -430,16 +458,16 @@ ggplot(data, aes(x = mpg)) +
   geom_histogram()
 
 ggplot(data, aes(x = mpg)) +
-  geom_histogram(binwidth = 2)
+  geom_histogram(binwidth = 5)
 
 ggplot(data, aes(x = mpg)) +
-  geom_histogram(binwidth = 2) +
+  geom_histogram(binwidth = 5) +
   theme_bw()
 
 ??theme_bw
 
 ggplot(data, aes(x = wt)) +
-  geom_histogram(binwidth = 0.5) +
+  geom_histogram(binwidth = 2) +
   theme_bw()
 
 
@@ -447,6 +475,9 @@ ggplot(data, aes(x = wt)) +
 
 
 table(data$cyl)
+
+
+
 prop.table(table(data$cyl))
 
 table(data$am)
@@ -492,7 +523,7 @@ ggplot(data, aes(x = am_f, y = mpg)) +
   theme_bw()
 
 
-# install.packages("dplyr")
+install.packages("dplyr")
 library("dplyr")
 
 data %>%
@@ -619,8 +650,8 @@ AIC(fit4)
 AIC(fit5)
 
 anova(fit4, fit5)
-anova(fit4, fit3)
+anova(fit5, fit3)
 
-plot(fit5, ask = T)
+# plot(fit5, ask = F)
 
 
