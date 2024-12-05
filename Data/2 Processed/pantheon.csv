@@ -1,0 +1,199 @@
+"article_id","full_name","sex","birth_year","city","state","country","continent","latitude","longitude","occupation","industry","domain","article_languages","page_views","average_views","historical_popularity_index"
+308,"Aristotle","Male","-384","Stageira","","Greece","Europe",40.33333,23.5,"Philosopher","Philosophy","Humanities",152,56355172,370758,31.9938
+22954,"Plato","Male","-427","Athens","","Greece","Europe",37.96667,23.71667,"Philosopher","Philosophy","Humanities",142,46812003,329662,31.9888
+1095706,"Jesus Christ","Male","-4","Judea","","Israel","Asia",32.5,34.9,"Religious Figure","Religion","Institutions",214,60299092,281771,31.8981
+25664190,"Socrates","Male","-469","Athens","","Greece","Europe",37.96667,23.71667,"Philosopher","Philosophy","Humanities",137,40307143,294213,31.6521
+783,"Alexander the Great","Male","-356","Pella","","Greece","Europe",40.8,22.51667,"Military Personnel","Military","Institutions",138,48358148,350421,31.584
+18079,"Leonardo da Vinci","Male","1452","Vinci","","Italy","Europe",43.78333,10.91667,"Inventor","Invention","Science & Technology",174,88931135,511098,31.4644
+5823,"Confucius","Male","-551","Qufu","","China","Asia",NA,NA,"Philosopher","Philosophy","Humanities",192,22363652,116477,31.3705
+15924,"Julius Caesar","Male","-100","Rome","","Italy","Europe",41.9,12.5,"Politician","Government","Institutions",128,43088745,336631,31.1161
+13633,"Homer","Male","-800","Smyrna","","Turkey","Europe",38.41861,27.13917,"Writer","Language","Humanities",141,20839405,147797,31.1087
+23275,"Pythagoras","Male","-570","Samos Island","","Greece","Europe",37.75,26.83333,"Philosopher","Philosophy","Humanities",114,26168219,229546,31.0691
+1844,"Archimedes","Male","-287","Syracuse","","Italy","Europe",37.08333,15.28333,"Mathematician","Math","Science & Technology",129,22022077,170714,30.9907
+19577,"Moses","Male","-1391","Wadi Tumilat","","Egypt","Africa",NA,NA,"Religious Figure","Religion","Institutions",115,21880195,190263,30.8632
+18934,"Muhammad","Male","570","Mecca","","Saudi Arabia","Asia",21.41667,39.81667,"Religious Figure","Religion","Institutions",150,43026648,286844,30.65
+1436,"Abraham","Male","-1800","Other","","Unknown","",33.7,43.5,"Religious Figure","Religion","Institutions",105,17824676,169759,30.6047
+2731583,"Adolf Hitler","Male","1889","Braunau am Inn","","Austria","Europe",48.25833,13.035,"Politician","Government","Institutions",169,128368798,759579,30.5778
+33163,"Wolfgang Amadeus Mozart","Male","1756","Salzburg","","Austria","Europe",47.8,13.03333,"Composer","Music","Arts",177,51363334,290188,30.5146
+5314,"Charlemagne","Male","742","Liège","","Belgium","Europe",NA,NA,"Politician","Government","Institutions",116,26626252,229537,30.4837
+32897,"William Shakespeare","Male","1564","Stratford-upon-Avon","","United Kingdom","Europe",52.19,-1.71,"Writer","Language","Humanities",163,74882297,459401,30.4398
+21019,"Michelangelo","Male","1475","Caprese Michelangelo","","Italy","Europe",43.63333,11.98333,"Painter","Fine Arts","Arts",158,39992803,253119,30.4383
+1273,"Augustus","Male","-63","Rome","","Italy","Europe",41.9,12.5,"Politician","Government","Institutions",117,20307663,173570,30.4195
+69880,"Napoleon Bonaparte","Male","1769","Corsica","","France","Europe",41.9267,8.7369,"Politician","Government","Institutions",145,57559307,396961,30.3263
+14627,"Isaac Newton","Male","1642","Woolsthorpe-by-Colsterworth","","United Kingdom","Europe",52.80986,-0.62877,"Physicist","Natural Sciences","Science & Technology",191,59909049,313660,30.2889
+736,"Albert Einstein","Male","1879","Ulm","","Germany","Europe",48.4,9.98333,"Physicist","Natural Sciences","Science & Technology",166,89771090,540790,30.2106
+5635,"Christopher Columbus","Male","1451","Genoa","","Italy","Europe",44.41111,8.93278,"Explorer","Explorers","Exploration",153,58442090,381974,30.1753
+9906294,"Johann Sebastian Bach","Male","1685","Eisenach","","Germany","Europe",50.97611,10.32056,"Composer","Music","Arts",144,29753654,206623,30.1672
+8169,"Dante Alighieri","Male","1265","Florence","","Italy","Europe",43.78333,11.25,"Writer","Language","Humanities",137,20540747,149932,30.1496
+17914,"Ludwig van Beethoven","Male","1770","Bonn","","Germany","Europe",50.73399,7.09981,"Composer","Music","Arts",153,48132344,314590,30.1093
+3395,"Gautama Buddha","Male","-563","Lumbini","","Nepal","Asia",27.53333,83.05,"Philosopher","Philosophy","Humanities",124,23685332,191011,30.0418
+60827,"Cleopatra VII of Egypt","Female","-69","Alexandria","","Egypt","Africa",31.2,29.91667,"Politician","Government","Institutions",100,18849501,188495,30.0367
+7567080,"Martin Luther","Male","1483","Eisleben","","Germany","Europe",51.51667,11.55,"Religious Figure","Religion","Institutions",125,35167994,281344,30.0311
+29688374,"Galileo Galilei","Male","1564","Pisa","","Italy","Europe",43.71667,10.4,"Astronomer","Natural Sciences","Science & Technology",146,48254299,330509,29.96
+13574,"Herodotus","Male","-484","Halicarnassus","","Turkey","Asia",37.03778,27.42417,"Historian","History","Humanities",103,9703065,94205,29.9592
+24140,"Paul of Tarsus","Male","5","Tarsus","","Turkey","Asia",36.91667,34.89556,"Religious Figure","Religion","Institutions",100,15781652,157817,29.8889
+2030,"Augustine of Hippo","Male","354","Souk Ahras","","Algeria","Africa",NA,NA,"Philosopher","Philosophy","Humanities",105,17433781,166036,29.8872
+9331,"Euclid","Male","-325","Other","","Unknown","",NA,NA,"Mathematician","Math","Science & Technology",117,10896731,93134,29.8846
+32359,"Virgil","Male","-70","Mantua","","Italy","Europe",45.11667,10.78333,"Writer","Language","Humanities",114,9154149,80300,29.8811
+21632,"Nero","Male","37","Anzio","","Italy","Europe",41.44795,12.62905,"Politician","Government","Institutions",79,18309769,231769,29.8599
+30072,"Thales","Male","-635","Miletus","","Turkey","Asia",37.53028,27.27833,"Philosopher","Philosophy","Humanities",84,14460625,172150,29.8485
+16743,"Karl Marx","Male","1818","Trier","","Germany","Europe",49.75,6.63333,"Economist","Social Sciences","Science & Technology",148,46599942,314864,29.8429
+19334,"Marco Polo","Male","1254","Republic of Venice","","Italy","Europe",45.43333,12.31667,"Explorer","Explorers","Exploration",127,17773989,139953,29.7719
+6046,"Cicero","Male","-106","Arpino","","Italy","Europe",NA,NA,"Politician","Government","Institutions",83,13649824,164456,29.7426
+26984,"Sophocles","Male","-496","Athens","","Greece","Europe",37.99583,23.71528,"Writer","Language","Humanities",100,8948030,89480,29.7421
+32603,"Vincent van Gogh","Male","1853","Zundert","","Netherlands","Europe",51.46667,4.66667,"Painter","Fine Arts","Arts",155,45449125,293220,29.7384
+17414699,"Genghis Khan","Male","1162","Delüün Boldog","","Mongolia","Asia",NA,NA,"Military Personnel","Military","Institutions",121,27565467,227814,29.7353
+44406,"Zoroaster","Male","-600","Airyanem Vaejah","","Afghanistan","Asia",NA,NA,"Writer","Language","Humanities",86,7010219,81514,29.7245
+13959,"Hannibal Barca","Male","-248","Carthage","","Tunisia","Africa",36.85806,10.33083,"Politician","Government","Institutions",86,18246118,212164,29.6911
+14631,"Immanuel Kant","Male","1724","Kaliningrad","","Russia","Europe",54.71667,20.51667,"Philosopher","Philosophy","Humanities",125,28745025,229960,29.6882
+13486,"Hippocrates","Male","-460","Kos","","Greece","Europe",36.85,27.23333,"Physician","Medicine","Science & Technology",93,10097815,108579,29.6361
+26743,"Sigmund Freud","Male","1856","Příbor","","Czech Republic","Europe",49.63861,18.14389,"Psychologist","Social Sciences","Science & Technology",134,43475930,324447,29.6293
+24176,"Pablo Picasso","Male","1881","Málaga","","Spain","Europe",36.71944,-4.42,"Painter","Fine Arts","Arts",143,56598798,395796,29.5957
+90050,"Nefertiti","Female","-1370","Thebes","","Egypt","Africa",25.72056,32.61028,"Companion","Companions","Public Figure",74,9660479,130547,29.5711
+28329,"Solomon","Male","-1000","Jerusalem","","Israel","Asia",31.78333,35.21667,"Religious Figure","Religion","Institutions",79,13359813,169112,29.5649
+16509,"Jeanne d'Arc","Female","1412","Domrémy-la-Pucelle","","France","Europe",48.4431,5.6758,"Military Personnel","Military","Institutions",104,27928806,268546,29.5566
+99598,"Qin Shi Huang","Male","-259","Handan","","China","Asia",36.6,114.48333,"Politician","Government","Institutions",144,9197875,63874,29.5192
+20012109,"Aesop","Male","-620","Other","","Unknown","",39.02056,31.28917,"Writer","Language","Humanities",69,7898719,114474,29.4989
+10073,"Epicurus","Male","-341","Samos Island","","Greece","Europe",37.75,26.83333,"Philosopher","Philosophy","Humanities",68,8895085,130810,29.4762
+6852,"Caligula","Male","12","Anzio","","Italy","Europe",41.44795,12.62905,"Politician","Government","Institutions",76,17137539,225494,29.4536
+25525,"René Descartes","Male","1596","Descartes","Indre-et-Loire","France","Europe",46.9744,0.6986,"Philosopher","Philosophy","Humanities",120,26370301,219753,29.4481
+21490957,"Thomas Aquinas","Male","1225","Roccasecca","","Italy","Europe",41.55,13.66667,"Philosopher","Philosophy","Humanities",103,17427900,169203,29.4352
+30437,"Tutankhamun","Male","-1341","Ancient Egypt","","Egypt","Africa",NA,NA,"Politician","Government","Institutions",75,17640463,235206,29.3953
+73513,"Mary","Female","-18","Nazareth","","Israel","Asia",32.70194,35.30333,"Religious Figure","Religion","Institutions",100,4043545,40435,29.3919
+19242322,"Johann Wolfgang von Goethe","Male","1749","Frankfurt","","Germany","Europe",NA,NA,"Writer","Language","Humanities",132,20958901,158780,29.3385
+20155,"Marcus Aurelius","Male","121","Rome","","Italy","Europe",41.9,12.5,"Politician","Government","Institutions",73,11839877,162190,29.3305
+32375,"Voltaire","Male","1694","Paris","","France","Europe",48.8567,2.3508,"Writer","Language","Humanities",112,27632624,246720,29.2732
+37802,"Ovid","Male","-43","Sulmona","","Italy","Europe",42.03333,13.93333,"Writer","Language","Humanities",88,7030681,79894,29.2723
+21444,"Niccolò Machiavelli","Male","1469","Florence","","Italy","Europe",43.78333,11.25,"Philosopher","Philosophy","Humanities",106,22390820,211234,29.2668
+4068,"Blaise Pascal","Male","1623","Clermont-Ferrand","","France","Europe",45.7831,3.0824,"Mathematician","Math","Science & Technology",103,17297105,167933,29.2544
+841,"Attila the Hun","Male","406","Hajdúböszörmény","","Hungary","Europe",NA,NA,"Politician","Government","Institutions",83,11123103,134013,29.2433
+8551,"David","Male","-1040","Bethlehem","","Palestine","Asia",31.70306,35.19556,"Politician","Government","Institutions",72,14023246,194767,29.2419
+44525,"Raphael","Male","1483","Urbino","","Italy","Europe",43.71667,12.63333,"Painter","Fine Arts","Arts",112,16525336,147548,29.2108
+8145410,"Charles Darwin","Male","1809","Shrewsbury","","United Kingdom","Europe",52.71278,-2.76319,"Biologist","Natural Sciences","Science & Technology",148,49582198,335015,29.1979
+13623554,"Che Guevara","Male","1928","Rosario","","Argentina","South America",-32.95,-60.66667,"Social Activist","Activism","Public Figure",129,54896869,425557,29.1644
+15941,"Jean-Jacques Rousseau","Male","1712","Geneva","","Switzerland","Europe",46.2,6.15,"Philosopher","Philosophy","Humanities",106,26399173,249049,29.1628
+65119,"Laozi","Male","-400","Henan","","China","Asia",33.9,113.5,"Philosopher","Philosophy","Humanities",105,6743614,64225,29.1483
+19379,"Mahatma Gandhi","Male","1869","Porbandar","","India","Asia",21.63,69.6,"Social Activist","Activism","Public Figure",138,44366012,321493,29.1406
+26983,"Saladin","Male","1138","Tikrit","","Iraq","Asia",34.6,43.68333,"Politician","Government","Institutions",104,14119978,135769,29.1401
+31665644,"Saint Peter","Male","0","Bethsaida","","Syria","Asia",32.91,35.631,"Religious Figure","Religion","Institutions",98,14650751,149497,29.1364
+27784,"Sappho","Female","-625","Lesbos Island","","Greece","Europe",39.16667,26.33333,"Writer","Language","Humanities",82,5492117,66977,29.1232
+2023,"Aeschylus","Male","-525","Eleusina","","Greece","Europe",38.03333,23.53333,"Writer","Language","Humanities",74,6231138,84205,29.0996
+23979,"Ptolemy","Male","90","Egypt","","Egypt","Africa",31.2,29.91667,"Astronomer","Natural Sciences","Science & Technology",87,9459640,108731,29.0892
+16125,"John the Baptist","Male","-5","Jerusalem","","Israel","Asia",NA,NA,"Religious Figure","Religion","Institutions",78,10702126,137207,29.0865
+30570,"Trajan","Male","53","Italica","","Spain","Europe",37.44389,-6.04667,"Politician","Government","Institutions",72,6299821,87498,29.0781
+20787,"Mary Magdalene","Female","1","Magdala","","Israel","Asia",32.825,35.5075,"Religious Figure","Religion","Institutions",65,13657412,210114,29.0759
+13792,"Heraclitus","Male","-535","Ephesus","","Turkey","Asia",37.94111,27.34194,"Philosopher","Philosophy","Humanities",72,7690246,106809,29.0696
+13151,"Gilgamesh","Male","-3500","Other","","Iraq","Asia",NA,NA,"Politician","Government","Institutions",54,9602219,177819,29.0492
+45080,"Vasco da Gama","Male","1469","Sines","","Portugal","Europe",37.95472,-8.86444,"Explorer","Explorers","Exploration",119,12831158,107825,29.0264
+1814,"Adam Smith","Male","1723","Kirkcaldy","","United Kingdom","Europe",56.11073,-3.16737,"Economist","Social Sciences","Science & Technology",111,20395667,183745,29.0105
+10128,"Elizabeth I of England","Female","1533","London","","United Kingdom","Europe",51.48222,-0.00667,"Politician","Government","Institutions",106,39290364,370664,29.0005
+13693,"Horace","Male","-65","Venusia","","Italy","Europe",40.96177,15.81479,"Writer","Language","Humanities",76,5211790,68576,29
+18553,"Louis XIV of France","Male","1638","Paris","","France","Europe",48.89806,2.09639,"Politician","Government","Institutions",89,25431554,285748,28.9814
+39356,"Anne Boleyn","Female","1501","Norfolk or Kent","","United Kingdom","Europe",51.18348,0.11055,"Companion","Companions","Public Figure",62,25342861,408756,28.9534
+19914843,"Ferdinand Magellan","Male","1480","Sabrosa","","Portugal","Europe",41.28444,-7.595,"Explorer","Explorers","Exploration",120,14936167,124468,28.9393
+15641,"Joseph Stalin","Male","1878","Gori","","Georgia","Asia",41.96667,44.1,"Politician","Government","Institutions",134,42908561,320213,28.9317
+21476519,"Ramesses II","Male","-1303","Other","","Egypt","Africa",NA,NA,"Politician","Government","Institutions",59,10524828,178387,28.9233
+11015252,"Vladimir Lenin","Male","1870","Ulyanovsk","","Russia","Europe",54.31667,48.36667,"Politician","Government","Institutions",137,27160642,198253,28.9211
+94111,"Leonidas I","Male","-540","Sparta","","Greece","Europe",37.08194,22.42361,"Politician","Government","Institutions",57,11025629,193432,28.9027
+1130,"Avicenna","Male","980","Bukhara","","Uzbekistan","Asia",39.76667,64.43333,"Philosopher","Philosophy","Humanities",102,10026549,98300,28.8917
+89728,"Akhenaten","Male","-1380","Other","","Egypt","Africa",26,30,"Politician","Government","Institutions",62,7197331,116086,28.856
+15745,"Johannes Gutenberg","Male","1398","Mainz","","Germany","Europe",50,8.26667,"Inventor","Invention","Science & Technology",108,11713571,108459,28.8535
+9808,"Euripides","Male","-480","Salamis Island","","Greece","Europe",37.93333,23.5,"Writer","Language","Humanities",65,5941148,91402,28.8391
+75150,"Seneca the Younger","Male","-4","Córdoba","","Spain","Europe",37.88333,-4.76667,"Philosopher","Philosophy","Humanities",62,8549935,137902,28.8207
+2402,"Albrecht Dürer","Male","1471","Nuremberg","","Germany","Europe",49.45,11.08333,"Painter","Fine Arts","Arts",112,10212700,91185,28.8184
+36812,"Pericles","Male","-495","Athens","","Greece","Europe",37.96667,23.71667,"Politician","Government","Institutions",63,7934375,125942,28.8129
+51825,"Sun Tzu","Male","-544","Qi","","China","Asia",NA,NA,"Philosopher","Philosophy","Humanities",81,6622800,81763,28.7957
+13621,"Hadrian","Male","76","Italica","","Spain","Europe",37.44389,-6.04667,"Politician","Government","Institutions",64,6885963,107593,28.7796
+59172,"Judas Iscariot","Male","-1","Other","","Unknown","",NA,NA,"Religious Figure","Religion","Institutions",63,11142102,176859,28.7693
+19960,"Mark Antony","Male","-83","Rome","","Italy","Europe",41.9,12.5,"Politician","Government","Institutions",61,9040703,148208,28.7531
+14358,"Hammurabi","Male","-1796","Babylon","","Iraq","Asia",32.53639,44.42083,"Politician","Government","Institutions",82,5376002,65561,28.7455
+16143,"John Locke","Male","1632","Wrington","","United Kingdom","Europe",51.3617,-2.7606,"Philosopher","Philosophy","Humanities",99,23061256,232942,28.7425
+8211,"Democritus","Male","-460","Abdera","","Greece","Europe",40.95,24.98333,"Philosopher","Philosophy","Humanities",72,9288258,129004,28.7332
+1028,"Aristophanes","Male","-446","Athens","","Greece","Europe",37.96667,23.71667,"Writer","Language","Humanities",68,4704294,69181,28.7213
+20076,"Martin Luther King, Jr.","Male","1929","Atlanta","GA","United States","North America",33.755,-84.39,"Social Activist","Activism","Public Figure",116,28854653,248747,28.6877
+24517,"Plutarch","Male","45","Chaeronea","","Greece","Europe",38.51667,22.85,"Philosopher","Philosophy","Humanities",72,5399390,74992,28.6819
+10671,"Friedrich Nietzsche","Male","1844","Röcken","","Germany","Europe",51.24083,12.11611,"Philosopher","Philosophy","Humanities",117,39344570,336278,28.6677
+42146,"Victor Hugo","Male","1802","Besançon","","France","Europe",47.2431,6.0219,"Writer","Language","Humanities",123,25659755,208616,28.6599
+14980,"Imhotep","Male","-2650","Memphis","","Egypt","Africa",29.84472,31.25083,"Architect","Design","Arts",56,4231465,75562,28.6228
+9288,"Elvis Presley","Male","1935","Tupelo","MS","United States","North America",34.25972,-88.72583,"Singer","Music","Arts",118,55896331,473698,28.6172
+40112,"Salvador Dalí","Male","1904","Figueres","","Spain","Europe",42.26667,2.965,"Painter","Fine Arts","Arts",122,37482606,307234,28.593
+25452,"Richard Wagner","Male","1813","Leipzig","","Germany","Europe",51.33333,12.38333,"Composer","Music","Arts",116,17596072,151690,28.5694
+7236,"Constantine I","Male","272","Niš","","Serbia","Europe",43.3,21.9,"Politician","Government","Institutions",96,8393354,87431,28.5648
+51465,"Molière","Male","1622","Paris","","France","Europe",48.8567,2.3508,"Writer","Language","Humanities",106,17239276,162635,28.5634
+19283178,"Benito Mussolini","Male","1883","Predappio","","Italy","Europe",44.1,11.98333,"Politician","Government","Institutions",105,30179131,287420,28.5507
+13700,"Hesiod","Male","-800","Other","","Greece","Europe",NA,NA,"Writer","Language","Humanities",61,3804261,62365,28.5445
+46289,"Xerxes I of Persia","Male","-519","Other","","Iran","Asia",32,53,"Politician","Government","Institutions",57,8762549,153729,28.5358
+30536,"Tiberius","Male","-42","Rome","","Italy","Europe",41.9,12.5,"Politician","Government","Institutions",75,7080121,94402,28.5326
+22614,"Oscar Wilde","Male","1854","Dublin","","Ireland","Europe",53.34778,-6.25972,"Writer","Language","Humanities",100,27541340,275413,28.5287
+10868,"Francisco Goya","Male","1746","Fuendetodos","","Spain","Europe",41.34333,-0.85861,"Painter","Fine Arts","Arts",116,13608720,117317,28.5249
+21463370,"Peter Paul Rubens","Male","1577","Siegen","","Germany","Europe",50.88333,8.01667,"Painter","Fine Arts","Arts",99,8171725,82543,28.5205
+6548,"Claude Monet","Male","1840","Paris","","France","Europe",48.8567,2.3508,"Painter","Fine Arts","Arts",92,23208960,252271,28.5044
+234264,"Diogenes of Sinope","Male","-412","Sinop","","Turkey","Asia",42.03333,35.15,"Philosopher","Philosophy","Humanities",62,5869970,94677,28.4978
+8580,"Diocletian","Male","244","Solin","","Croatia","Europe",43.535,16.485,"Politician","Government","Institutions",70,5522343,78891,28.4917
+46117,"Eratosthenes","Male","-276","Cyrene","","Libya","Africa",32.825,21.85806,"Geographer","Social Sciences","Science & Technology",70,5976911,85384,28.4856
+10823,"Frédéric Chopin","Male","1810","Żelazowa Wola","","Poland","Europe",52.26667,20.33333,"Composer","Music","Arts",109,22680875,208081,28.4658
+14187,"Henry VIII of England","Male","1491","Greenwhich","","United Kingdom","Europe",51.48222,-0.00667,"Nobleman","Government","Institutions",77,48601509,631188,28.4656
+19527,"Mao Zedong","Male","1893","Shaoshan","","China","Asia",27.91,112.48,"Politician","Government","Institutions",122,29051982,238131,28.4606
+45109,"Marie Antoinette","Female","1755","Vienna","","Austria","Europe",48.2,16.36667,"Nobleman","Government","Institutions",65,32610600,501702,28.4474
+6125,"Carl Friedrich Gauss","Male","1777","Braunschweig","","Germany","Europe",52.26667,10.51667,"Mathematician","Math","Science & Technology",108,10019549,92774,28.4442
+12958,"Giuseppe Verdi","Male","1813","Le Roncole","","Italy","Europe",44.9525,10.07222,"Composer","Music","Arts",107,11937617,111567,28.398
+22416,"Otto von Bismarck","Male","1815","Schönhausen","","Germany","Europe",52.57861,12.03972,"Politician","Government","Institutions",108,15484912,143379,28.386
+7018,"Caravaggio","Male","1571","Milan","","Italy","Europe",45.46667,9.18333,"Painter","Fine Arts","Arts",71,13560021,190986,28.3579
+15192,"Isaac","Male","-3500","Canaan","","Israel","Asia",NA,NA,"Religious Figure","Religion","Institutions",62,4778973,77080,28.3556
+16209,"Justinian I","Male","483","Tauresium","","Republic Of Macedonia","Europe",NA,NA,"Politician","Government","Institutions",72,5998344,83310,28.3512
+19318,"Marilyn Monroe","Female","1926","Los Angeles","CA","United States","North America",34.05,-118.25,"Actor","Film And Theatre","Arts",143,63671491,445255,28.3466
+12598,"Georg Wilhelm Friedrich Hegel","Male","1770","Stuttgart","","Germany","Europe",48.78333,9.18333,"Philosopher","Philosophy","Humanities",95,10627502,111868,28.3382
+73515,"Sandro Botticelli","Male","1445","Florence","","Italy","Europe",43.78333,11.25,"Painter","Fine Arts","Arts",70,9514874,135927,28.3374
+12963,"Giordano Bruno","Male","1548","Nola","","Italy","Europe",40.92608,14.52744,"Astronomer","Natural Sciences","Science & Technology",83,7818939,94204,28.3298
+800012,"Cyrus the Great","Male","-576","Anshan","","Iran","Asia",30.01167,52.40778,"Politician","Government","Institutions",89,6836963,76820,28.3238
+17740,"Louis Pasteur","Male","1822","Dole","","France","Europe",47.0931,5.4906,"Chemist","Natural Sciences","Science & Technology",116,17803458,153478,28.3177
+44324,"Commodus","Male","161","Lanuvium","","Italy","Europe",41.6747,12.69758,"Politician","Government","Institutions",57,5964371,104638,28.3054
+18993992,"Spartacus","Male","-109","Thrace","","Bulgaria","Europe",NA,NA,"Military Personnel","Military","Institutions",64,29683994,463812,28.2996
+12775,"George Frideric Handel","Male","1685","Halle","","Germany","Europe",51.48333,11.96667,"Composer","Music","Arts",93,10717383,115241,28.2857
+5233,"Carl Linnaeus","Male","1707","Råshult","","Sweden","Europe",56.618,14.202,"Biologist","Natural Sciences","Science & Technology",123,9210590,74883,28.2851
+21615,"Nostradamus","Male","1503","Saint-Rémy-de-Provence","","France","Europe",43.79,4.8325,"Writer","Language","Humanities",74,22719309,307018,28.2818
+47118,"Darius I of Persia","Male","-549","Other","","Iran","Asia",NA,NA,"Politician","Government","Institutions",67,3654557,54546,28.2766
+34155,"Xenophon","Male","-431","Athens","","Greece","Europe",37.96667,23.71667,"Historian","History","Humanities",57,3450862,60541,28.2743
+23734,"Petrarch","Male","1304","Arezzo","","Italy","Europe",43.47333,11.87,"Writer","Language","Humanities",77,7824106,101612,28.2658
+12957,"Giovanni Boccaccio","Male","1313","Certaldo","","Italy","Europe",43.54778,11.04111,"Writer","Language","Humanities",77,5589596,72592,28.2525
+11625,"Fyodor Dostoyevsky","Male","1821","Moscow","","Russia","Europe",55.75,37.61667,"Writer","Language","Humanities",113,13376431,118375,28.2486
+31131,"Theodosius I","Male","347","Coca","Segovia","Spain","Europe",41.2167,-4.5167,"Politician","Government","Institutions",65,3904324,60067,28.2484
+9840,"Elijah","Male","-3500","Tishbe","Gilead","Jordan","Asia",NA,NA,"Religious Figure","Religion","Institutions",55,5685950,103381,28.2463
+58230,"Solon","Male","-638","Athens","","Greece","Europe",37.96667,23.71667,"Politician","Government","Institutions",54,4115537,76214,28.2375
+52121,"Strabo","Male","-64","Amasya","","Turkey","Asia",40.65,35.83306,"Geographer","Social Sciences","Science & Technology",67,2234878,33356,28.2178
+19455,"Max Weber","Male","1864","Erfurt","","Germany","Europe",50.98333,11.03333,"Sociologist","Social Sciences","Science & Technology",89,17464357,196229,28.2169
+18622119,"Leo Tolstoy","Male","1828","Yasnaya Polyana","","Russia","Europe",54.07611,37.52611,"Writer","Language","Humanities",123,16181442,131556,28.2126
+29823,"Thomas Hobbes","Male","1588","Malmesbury","","United Kingdom","Europe",NA,NA,"Philosopher","Philosophy","Humanities",79,13453210,170294,28.2082
+242606,"Khufu","Male","-2600","Other","","Unknown","",NA,NA,"Politician","Government","Institutions",52,3397134,65330,28.2012
+30864,"Thucydides","Male","-460","Alimos","","Greece","Europe",37.91667,23.71667,"Historian","History","Humanities",71,4063157,57228,28.199
+12281,"Gottfried Wilhelm von Leibniz","Male","1646","Leipzig","","Germany","Europe",51.33333,12.38333,"Mathematician","Math","Science & Technology",106,7295094,68822,28.1935
+19594563,"Tacitus","Male","56","Gaul","","France","Europe",46.5,2.9,"Historian","History","Humanities",67,4359911,65073,28.1906
+15930,"John Calvin","Male","1509","Noyon","","France","Europe",49.5817,2.9997,"Religious Figure","Religion","Institutions",79,9406706,119072,28.177
+32917,"Walt Disney","Male","1901","Chicago","IL","United States","North America",41.92,-87.73,"Producer","Business","Business & Law",113,33332870,294981,28.1723
+30479,"Thomas More","Male","1478","London","","United Kingdom","Europe",51.5155,-0.0922,"Philosopher","Philosophy","Humanities",69,11761778,170461,28.1615
+17900,"Le Corbusier","Male","1887","La Chaux-de-Fonds","","Switzerland","Europe",47.10133,6.825,"Architect","Design","Arts",107,13401962,125252,28.1602
+32570,"Vespasian","Male","9","Falacrinae","","Italy","Europe",NA,NA,"Politician","Government","Institutions",69,4020556,58269,28.1584
+16340,"Jean-Paul Sartre","Male","1905","Paris","","France","Europe",48.8567,2.3508,"Writer","Language","Humanities",106,19009595,179336,28.1531
+15736,"Johannes Kepler","Male","1571","Weil der Stadt","","Germany","Europe",48.75083,8.87056,"Astronomer","Natural Sciences","Science & Technology",105,12480204,118859,28.1457
+52790,"Aleksandr Pushkin","Male","1799","Moscow","","Russia","Europe",55.75,37.61667,"Writer","Language","Humanities",116,6788172,58519,28.1305
+1168,"Anaximander","Male","-610","Miletus","","Turkey","Asia",37.53028,27.27833,"Philosopher","Philosophy","Humanities",70,4275744,61082,28.1212
+10152,"Desiderius Erasmus","Male","1466","Rotterdam","","Netherlands","Europe",51.91667,4.5,"Philosopher","Philosophy","Humanities",69,8517572,123443,28.1211
+26992,"Suleiman the Magnificent","Male","1494","Trabzon","","Turkey","Asia",41,39.73333,"Politician","Government","Institutions",87,20448629,235042,28.1209
+33265,"Winston Churchill","Male","1874","Blenheim Palace","","United Kingdom","Europe",51.84194,-1.36139,"Politician","Government","Institutions",114,32842779,288095,28.1069
+52346,"Nebuchadrezzar II","Male","-634","Other","","Iraq","Asia",NA,NA,"Politician","Government","Institutions",57,5540287,97198,28.0941
+23575,"Parmenides","Male","-510","Velia","","Italy","Europe",40.16083,15.155,"Philosopher","Philosophy","Humanities",58,4554554,78527,28.0922
+43311,"Johannes Vermeer","Male","1632","Delft","","Netherlands","Europe",52.01667,4.36667,"Painter","Fine Arts","Arts",74,9648252,130382,28.0899
+405374,"Ali","Male","598","Kaaba","","Saudi Arabia","Asia",21.4225,39.82618,"Religious Figure","Religion","Institutions",84,9632569,114673,28.0897
+15630,"James Cook","Male","1728","Marton","","United Kingdom","Europe",54.5406,-1.2124,"Explorer","Explorers","Exploration",115,11738304,102072,28.0893
+3986,"Benjamin Franklin","Male","1706","Boston","MA","United States","North America",42.35806,-71.06361,"Politician","Government","Institutions",88,29472054,334910,28.0867
+9549,"Edgar Allan Poe","Male","1809","Boston","MA","United States","North America",42.35806,-71.06361,"Writer","Language","Humanities",99,33748011,340889,28.0844
+16094,"Joseph Haydn","Male","1732","Rohrau","","Austria","Europe",48.06667,16.85,"Composer","Music","Arts",83,11122433,134005,28.0808
+42368,"Honoré de Balzac","Male","1799","Tours","","France","Europe",47.3936,0.6892,"Writer","Language","Humanities",82,9787362,119358,28.0715
+18024,"Li Bai","Male","701","Suyab","","China","Asia",NA,NA,"Writer","Language","Humanities",102,2893988,28372,28.0664
+27729289,"Giotto di Bondone","Male","1267","Florence","","Italy","Europe",43.78333,11.25,"Artist","Fine Arts","Arts",68,5544452,81536,28.0579
+11968,"George Washington","Male","1732","Westmoreland County","VA","United States","North America",38.11,-76.8,"Politician","Government","Institutions",134,34838477,259989,28.046
+69852,"Donatello","Male","1386","Florence","","Italy","Europe",43.78333,11.25,"Painter","Fine Arts","Arts",79,6995725,88553,28.0258
+29778,"Thomas Edison","Male","1847","Milan","OH","United States","North America",41.29333,-82.60139,"Inventor","Invention","Science & Technology",126,38631687,306601,28.0222
+12326,"Galen","Male","130","Pergamon","","Turkey","Asia",39.1325,27.18417,"Physician","Medicine","Science & Technology",73,4392712,60174,28.019
+154239,"Titian","Male","1485","Pieve di Cadore","","Italy","Europe",46.43333,12.36667,"Painter","Fine Arts","Arts",67,7560886,112849,28.0174
+3408,"Baruch Spinoza","Male","1632","Amsterdam","","Netherlands","Europe",52.36667,4.9,"Philosopher","Philosophy","Humanities",84,8686774,103414,28.0143
